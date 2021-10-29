@@ -1,0 +1,40 @@
+body {
+  background-color: #e5e5e5;
+}
+
+#slider {
+  background-image: url("../img/foto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+#fondo {
+  background-color: #f0a83e;
+  color: #ffffff;
+}
+
+.btn-naranja {
+  background-color: #f0a83e;
+  color: #ffffff;
+}
+
+.text-naranja {
+  color: #f0a83e;
+}
+
+#fondo-cafe {
+  background-color: #3c2313;
+  color: #ffffff;
+}
+
+.fondo-negro{
+    background-color: #222222 ;
+    color: #ffffff;
+}
+
+#logo1{
+    display: block;
+    margin: 20px auto;
+    
+}
