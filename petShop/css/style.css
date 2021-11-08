@@ -42,3 +42,18 @@ body {
   display: block;
   margin: 20px auto;
 }
+
+#baner{
+  text-align: center;
+}
+
+#baner h5{
+  font-size: 30px;
+  line-height: 35px;
+  background-color: white;
+  position: absolute;
+  width: 450px;
+  height: 35px;
+  left: 1120px;
+  top: 246px;
+}
