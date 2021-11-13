@@ -1,9 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #e5e5e5;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#fondoHeader {
+  background-color: #f0a83e;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  margin: 0 40px;
 }
 
 #slider {
@@ -11,11 +31,41 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-#fondo {
+h5{
+  display: flex;
+  background-color: white;
+  color: #3c2313;
+  padding: 20px;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+i{
+  margin-right: 7px;
+}
+
+#baner{
+  line-height: 35px;
+  display: flex;
+  
+}
+
+#textoBaner{
+  margin: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#btnBaner{
   background-color: #f0a83e;
   color: #ffffff;
+  
 }
 
 .btnEnviar {
@@ -35,25 +85,21 @@ body {
 .fondo-nav {
   background-color: #222222;
   color: #ffffff;
-
+  display: flex;
+  justify-content: space-between;
 }
 
-#logo1 {
-  display: block;
-  margin: 20px auto;
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#baner{
-  text-align: center;
+li{
+  margin: auto 20px;
 }
 
-#baner h5{
-  font-size: 30px;
-  line-height: 35px;
-  background-color: white;
-  position: absolute;
-  width: 450px;
-  height: 35px;
-  left: 1120px;
-  top: 246px;
-}
+
+
+
