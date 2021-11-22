@@ -77,7 +77,7 @@ i{
 #cajas{
   display: flex;
   align-items: center;
-  justify-content: space-evenl;
+  justify-content: space-around;
   margin: 40px 0;
 }
 
