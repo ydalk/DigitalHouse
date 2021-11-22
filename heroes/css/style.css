@@ -36,7 +36,6 @@ h1{
 }
 
 section{
-    border-radius: 16px 16 px 0 0;
     display: inline-block;
     width: 300px ;
     margin: 30px auto;
@@ -59,6 +58,7 @@ h2{
     position: absolute;
     top: 113px;
     left: 100px;
+    width: 140px;
 }
 
 .corazon {
@@ -69,6 +69,18 @@ h2{
 
 section #har{
     background-image: url(../img/fondoHarley.png);  
+    height: 300px;
+    height: 193px;
+}
+
+section #mujer{
+    background-image: url(../img/fondoMaravilla.png);  
+    height: 300px;
+    height: 193px;
+}
+
+section #super{
+    background-image: url(../img/fondoSuperman.png);  
     height: 300px;
     height: 193px;
 }

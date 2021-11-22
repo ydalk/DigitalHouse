@@ -9,6 +9,7 @@
 body {
   background-color: #e5e5e5;
   font-family: Roboto, Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #3c2313;
 }
 
 
@@ -68,6 +69,22 @@ i{
   
 }
 
+#menu{
+  text-align: center;
+  margin: 40px 0;
+}
+
+#cajas{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenl;
+  margin: 40px 0;
+}
+
+h1{
+  margin: 20px;
+}
+
 .btnEnviar {
   background-color: #f0a83e;
   color: #ffffff;
@@ -93,7 +110,7 @@ ul{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 li{
