@@ -6,6 +6,7 @@
     font-family: 'Roboto', sans-serif;
    
 }
+
 body{
     height: 1500px;
 }
@@ -16,24 +17,8 @@ main{
     margin: 0 auto;
 }
 
-#menuNav{
-    background-color: black;
-    color: white;
-    height: 30px;
-   
-}
-
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-li{
-    margin: 0 20px;
-}
-
-.header{
+/* inicio- header*/
+header{
     position: sticky;
     top: 0;
     z-index: 10;
@@ -46,29 +31,65 @@ h5 {
 }
 
 h1{
-   background-color:  #00669F;
-   padding: 15px;
-   font-size: 40px;
-   position: sticky;
+    background-color:  #00669F;
+    padding: 15px;
+    font-size: 40px;
+    position: sticky;
 }
 
+#menuNav{
+    background-color: black;
+    color: white;
+    height: 30px;
+    
+}
+
+#menuNav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#menuNav li{
+    margin: 0 20px;
+}
+/* fin - header*/
+
+
+/* inicio - section */
 section{
     display: inline-block;
     width: 300px ;
     margin: 30px auto;
     position: relative;
+    border-radius: 60px 60px 0  0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section .bat{
-    background-image: url(../img/fondoBatman.png); 
+section .divSect{
     height: 300px;
     height: 193px;
+    border-radius: 60px 60px 0  0;
+}
+section #bat{
+    background-image: url(../img/fondoBatman.png);    
+}
+
+section #har{
+    background-image: url(../img/fondoHarley.png)
+}
+
+section #mujer{
+    background-image: url(../img/fondoMaravilla.png);
+}
+
+section #super{
+    background-image: url(../img/fondoSuperman.png);
 }
 
 h2{
     text-align: center;
-
+    
 }
 
 .foto{
@@ -80,27 +101,10 @@ h2{
 
 .corazon {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 30px;
+    left: 30px;
 }
 
-section #har{
-    background-image: url(../img/fondoHarley.png);  
-    height: 300px;
-    height: 193px;
-}
-
-section #mujer{
-    background-image: url(../img/fondoMaravilla.png);  
-    height: 300px;
-    height: 193px;
-}
-
-section #super{
-    background-image: url(../img/fondoSuperman.png);  
-    height: 300px;
-    height: 193px;
-}
 
 .texto{
     height: 350px;
@@ -120,20 +124,12 @@ section button{
     top: 560px;
     left: 85px;
     font-size: 15px;
-
+    
 }
 
 p{
     padding: 30px;
     font-size: 16px;
-}
-
-form{
-    background-color:  #00669F;
-    color: white;
-    display: block;
-    margin: 30px auto;
-    border-radius: 25px;
 }
 
 footer{
@@ -146,3 +142,27 @@ footer{
     margin-top: 100px;
 }
 
+
+form{
+    background-color:  #00669F;
+    color: white;
+    margin: 30px auto;
+    border-radius: 25px;
+}
+
+#secForm{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 20px;
+}
+
+#secForm input{
+    
+    width: 90%;
+}
+
+textarea{
+    width: 90%;
+    margin-top: 15px;
+}
